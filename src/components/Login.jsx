@@ -2,7 +2,7 @@ import { useState } from "react"; // Import useState to manage error message sta
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import Logo from "../assets/logo.svg";
-import Saly1 from "../assets/saly-1.png";
+
 import { useAuth } from "../context/AuthContext.jsx"; // Import AuthContext
 
 export default function Login() {
@@ -86,7 +86,7 @@ export default function Login() {
           <div className="w-full max-w-md">
             <h2 className="text-3xl font-bold mb-8 flex gap-2 items-center">
               <span>Welcome to</span>
-              <img src={Saly1} className="h-7" alt="Logo" />
+              <img src={"/Saly-1.png"} className="h-7" alt="Logo" />
             </h2>
             <h1 className="text-5xl font-bold mb-8">Sign in</h1>
 

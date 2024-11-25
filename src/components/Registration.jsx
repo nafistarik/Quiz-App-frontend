@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import LogoWhite from "../assets/logo-white.svg";
 import Logo from "../assets/logo.svg";
-import Saly1 from "../assets/Saly-1.png";
 
 export default function Registration() {
   const {
@@ -57,7 +56,7 @@ export default function Registration() {
         {/* Left side content */}
         <div className="hidden lg:flex lg:w-1/2 bg-primary flex-col justify-between p-12 h-full fixed left-0 top-0">
           <div className="text-white">
-            <img src={Saly1} className="h-8" />
+            <img src={"/Saly-1.png"} className="h-8" />
             <img
               src={LogoWhite}
               alt="Illustration"
